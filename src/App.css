@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.image-text-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.image-text-block {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height to match the width */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 0 20px;
+}
+
+
+.image-description-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.image-proj {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height to match the width */
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.image-description-blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
