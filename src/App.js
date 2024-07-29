@@ -55,9 +55,10 @@ function NavBarPond() {
   <Container>
     <Navbar.Brand href="#home"></Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      {/* <Nav.Link href="#home">hi</Nav.Link> */}
+      <Nav.Link href="#home">hi</Nav.Link>
+      <Nav.Link href="#features">photography</Nav.Link>
+      <Nav.Link href="#features">about</Nav.Link>
     </Nav>
   </Container>
   </Navbar></>
