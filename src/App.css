@@ -41,7 +41,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 24px;
+  margin: 36px;
 }
 
 .image {
@@ -63,7 +63,7 @@
   align-items: center;
   text-align: center;
   max-width: 400px;
-  margin: 20px auto;
+  margin: 20px;
 }
 
 .image-proj {
