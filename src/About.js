@@ -1,7 +1,9 @@
+import './App.css';
+
 function About() {
   return (
     <div>    
-        <h1>hi</h1>
+        <p>about page</p>
     </div>
   );
 }

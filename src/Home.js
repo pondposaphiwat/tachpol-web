@@ -1,12 +1,10 @@
 import './App.css';
 
-import NavBarPortfolio from './NavBarPortfolio';
 import myImage from './IMG_2699.jpg'
 
 function Home() {
   return (
     <div>    
-        <NavBarPortfolio />
         <IntroBlock imageSrc={myImage} text={
             "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!"
         }/>
