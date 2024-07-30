@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.fc56aa99.css",
-    "main.js": "/static/js/main.b98804d0.js",
-    "static/js/453.2316711f.chunk.js": "/static/js/453.2316711f.chunk.js",
-    "static/media/DSC09763.JPG": "/static/media/DSC09763.4dd08fe8d506a67d9ee6.JPG",
-    "static/media/IMG_2699.jpg": "/static/media/IMG_2699.87aa49e50e3ec5725075.jpg",
-    "index.html": "/index.html",
-    "main.fc56aa99.css.map": "/static/css/main.fc56aa99.css.map",
-    "main.b98804d0.js.map": "/static/js/main.b98804d0.js.map",
-    "453.2316711f.chunk.js.map": "/static/js/453.2316711f.chunk.js.map"
+    "main.css": "/tachpol-web/static/css/main.fc56aa99.css",
+    "main.js": "/tachpol-web/static/js/main.69bbddd1.js",
+    "static/js/453.2316711f.chunk.js": "/tachpol-web/static/js/453.2316711f.chunk.js",
+    "static/media/DSC09763.JPG": "/tachpol-web/static/media/DSC09763.4dd08fe8d506a67d9ee6.JPG",
+    "static/media/IMG_2699.jpg": "/tachpol-web/static/media/IMG_2699.87aa49e50e3ec5725075.jpg",
+    "index.html": "/tachpol-web/index.html",
+    "main.fc56aa99.css.map": "/tachpol-web/static/css/main.fc56aa99.css.map",
+    "main.69bbddd1.js.map": "/tachpol-web/static/js/main.69bbddd1.js.map",
+    "453.2316711f.chunk.js.map": "/tachpol-web/static/js/453.2316711f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc56aa99.css",
-    "static/js/main.b98804d0.js"
+    "static/js/main.69bbddd1.js"
   ]
 }
