@@ -13,7 +13,7 @@ function App() {
     <h2> Tachpol </h2>
     </div> */}
     <IntroBlock imageSrc={myImage} text={
-      "Hi! My name is Pond. I would love to connect!"
+      "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!"
     }/>
     <div className='image-description-blocks'>
     <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>
