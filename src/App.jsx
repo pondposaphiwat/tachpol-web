@@ -7,12 +7,15 @@ import Home from './pages/Home.jsx'
 import About from './pages/About.jsx';
 import Photography from './pages/Photography.jsx';
 
+const basename = process.env.PUBLIC_URL || '';
+
 function App() {
   return (
-    <Router>
+    <Router basename={basename}>
       <NavBarPortfolio />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/photography" element={<Photography />} />
       </Routes>
