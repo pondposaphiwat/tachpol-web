@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>    
         <IntroBlock imageSrc={myImage} text={
-            "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!"
+            "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. Please contact at pond.posa@gmail.com"
         }/>
     <div className='image-description-blocks'>
         <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>

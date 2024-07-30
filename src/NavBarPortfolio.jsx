@@ -13,7 +13,7 @@ function NavBarPortfolio() {
             <Nav.Link>hi</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/photography">
-            <Nav.Link>photography</Nav.Link>
+            <Nav.Link>fun</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/about">
             <Nav.Link>about</Nav.Link>
