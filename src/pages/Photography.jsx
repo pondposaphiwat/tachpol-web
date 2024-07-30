@@ -1,3 +1,5 @@
+import '../styles/Photography.css';
+
 function Photography() {
   return (
     <div>

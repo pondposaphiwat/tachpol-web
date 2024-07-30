@@ -1,4 +1,4 @@
-import './App.css';
+import '../styles/Home.css';
 
 import myImage from '../images/profile/IMG_2699.jpg'
 
@@ -41,20 +41,5 @@ function ProjectDescriptionBlock ({ imageSrc, altText, description }) {
     </div>
   );
 };
-
-// function NavBarPortfolio() {
-//   return <>  
-//   <Navbar bg="light" data-bs-theme="light">
-//   <Container>
-//     <Navbar.Brand href="#home"></Navbar.Brand>
-//     <Nav className="me-auto">
-//       {/* <Nav.Link href="#home">hi</Nav.Link> */}
-//       <Nav.Link href="#home">hi</Nav.Link>
-//       <Nav.Link href="#features">photography</Nav.Link>
-//       <Nav.Link href="#features">about</Nav.Link>
-//     </Nav>
-//   </Container>
-//   </Navbar></>
-// }
 
 export default Home;
