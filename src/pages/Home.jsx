@@ -1,6 +1,6 @@
 import './App.css';
 
-import myImage from './IMG_2699.jpg'
+import myImage from '../images/profile/IMG_2699.jpg'
 
 function Home() {
   return (
