@@ -1,6 +1,7 @@
 import '../styles/Home.css';
 
 import myImage from '../images/profile/IMG_2699.jpg'
+import projImage from '../images/photography/DSC09763.JPG'
 
 function Home() {
   return (
@@ -9,12 +10,12 @@ function Home() {
             "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. Please contact at pond.posa@gmail.com"
         }/>
     <div className='image-description-blocks'>
-        <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>
-        <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>
+        <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
+        <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
     </div>
     <div className='image-description-blocks'>
-        <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>
-        <ProjectDescriptionBlock imageSrc={myImage} description={"project"}/>
+        <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
+        <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
     </div>
   </div>
   );
