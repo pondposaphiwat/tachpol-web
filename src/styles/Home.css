@@ -1,26 +1,26 @@
-.image-text-block {
+.intro-block {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 72px;
 }
 
-.image-intro-container {
+.intro-image-container {
   width: 100%;
   max-width: 150px; /* Set a max-width for the container */
   position: relative; /* Necessary for absolute positioning */
 }
 
-.image-intro-container img {
+.intro-image-container img {
   width: 150px; /* Set a fixed width */
   height: 150px; /* Set a fixed height to match the width */
   border-radius: 50%;
   object-fit: cover;
 }
 
-.text {
+.intro-text {
   padding: 0 20px;
-  max-width: 500px;
+  max-width: 600px;
   font-size: 0.875em; /* 14px/16=0.875em */
 }
 

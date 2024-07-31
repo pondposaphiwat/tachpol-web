@@ -5,10 +5,8 @@ import projImage from '../images/photography/DSC09763.JPG'
 
 function Home() {
   return (
-    <div>    
-        <IntroBlock imageSrc={myImage} text={
-            "Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. I would love to connect!Hi! My name is Pond. Please contact at pond.posa@gmail.com"
-        }/>
+    <div>
+        <IntroBlock imageSrc={myImage}/>
     <div className='image-description-blocks'>
         <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
         <ProjectDescriptionBlock imageSrc={projImage} description={"project"}/>
@@ -21,15 +19,25 @@ function Home() {
   );
 }
 
-function IntroBlock ({ imageSrc, altText, text }) {
+function IntroBlock ({ imageSrc, altText}) {
   return (
-    <div className="image-text-block">
-      <div className="image-intro-container">
+    <div className="intro-block">
+      <div className="intro-image-container">
         <img src={imageSrc} alt={altText} />
       </div>
-      <div className="text">
-        {text}
-      </div>
+        <div className="intro-text">
+          <h4>hey there! 👋</h4>
+          <br></br>
+I’m Pond and welcome to my portfolio! I graduated from <b>UC Berkeley</b> in May '22,
+where I studied <b>MechE + minored in EECS</b>.
+I'm currently a <b>Software Engineer (Embedded Systems Team) @ Frore Systems</b>.
+          <br></br>
+          <br></br>
+I would love to get to know you, so please don't hesitate to reach out!
+          <br></br>
+          <br></br>
+          <a href='https://drive.google.com/file/d/1B0QvqrwHsEGbM1Nj25oAXLyFdGkU2suM/view?usp=sharing'>resume</a> | <a href='https://www.linkedin.com/in/tachpol-posaphiwat-75a218145/'>linkedin</a> | pond.posa@gmail.com 😌
+        </div>
     </div>
   );
 };
