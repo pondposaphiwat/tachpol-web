@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tachpol-web/static/css/main.17713fc0.css",
-    "main.js": "/tachpol-web/static/js/main.b00adb0b.js",
+    "main.css": "/tachpol-web/static/css/main.4ff4199b.css",
+    "main.js": "/tachpol-web/static/js/main.e827e91f.js",
     "static/js/453.2316711f.chunk.js": "/tachpol-web/static/js/453.2316711f.chunk.js",
     "static/media/DSC09763.JPG": "/tachpol-web/static/media/DSC09763.4dd08fe8d506a67d9ee6.JPG",
     "static/media/IMG_2699.jpg": "/tachpol-web/static/media/IMG_2699.87aa49e50e3ec5725075.jpg",
     "index.html": "/tachpol-web/index.html",
-    "main.17713fc0.css.map": "/tachpol-web/static/css/main.17713fc0.css.map",
-    "main.b00adb0b.js.map": "/tachpol-web/static/js/main.b00adb0b.js.map",
+    "main.4ff4199b.css.map": "/tachpol-web/static/css/main.4ff4199b.css.map",
+    "main.e827e91f.js.map": "/tachpol-web/static/js/main.e827e91f.js.map",
     "453.2316711f.chunk.js.map": "/tachpol-web/static/js/453.2316711f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17713fc0.css",
-    "static/js/main.b00adb0b.js"
+    "static/css/main.4ff4199b.css",
+    "static/js/main.e827e91f.js"
   ]
 }
