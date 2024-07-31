@@ -24,7 +24,9 @@ function Home() {
 function IntroBlock ({ imageSrc, altText, text }) {
   return (
     <div className="image-text-block">
-      <img src={imageSrc} alt={altText} className="image" />
+      <div className="image-intro-container">
+        <img src={imageSrc} alt={altText} />
+      </div>
       <div className="text">
         {text}
       </div>

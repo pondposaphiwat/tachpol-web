@@ -4,8 +4,14 @@
   justify-content: center;
   margin: 36px;
 }
-  
-.image {
+
+.image-intro-container {
+  width: 100%;
+  max-width: 150px; /* Set a max-width for the container */
+  position: relative; /* Necessary for absolute positioning */
+}
+
+.image-intro-container img {
   width: 150px; /* Set a fixed width */
   height: 150px; /* Set a fixed height to match the width */
   border-radius: 50%;
