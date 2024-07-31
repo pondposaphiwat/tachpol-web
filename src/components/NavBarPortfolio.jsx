@@ -12,8 +12,11 @@ function NavBarPortfolio() {
         <LinkContainer to="/">
             <Nav.Link>hi</Nav.Link>
         </LinkContainer>
+        <LinkContainer to="/">
+            <Nav.Link>projects</Nav.Link>
+        </LinkContainer>
         <LinkContainer to="/photography">
-            <Nav.Link>fun</Nav.Link>
+            <Nav.Link>photos</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/about">
             <Nav.Link>about</Nav.Link>
