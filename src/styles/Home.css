@@ -1,48 +1,48 @@
 .image-text-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 36px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 36px;
+}
   
-  .image {
-    width: 150px; /* Set a fixed width */
-    height: 150px; /* Set a fixed height to match the width */
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  
-  .text {
-    padding: 0 20px;
-    max-width: 500px;
-    font-size: 0.875em; /* 14px/16=0.875em */
-  }
-  
-  
-  .image-description-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 400px;
-    margin: 20px;
-  }
-  
-  .image-proj {
-    width: 400px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height to match the width */
-    /* border-radius: 50%; */
-    object-fit: cover;
-  }
-  
-  .description {
-    margin-top: 4px;
-    font-size: .875em;
-    color: #333;
-  }
-  
-  .image-description-blocks {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
-  }
+.image {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height to match the width */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text {
+  padding: 0 20px;
+  max-width: 500px;
+  font-size: 0.875em; /* 14px/16=0.875em */
+}
+
+
+.image-description-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  margin: 20px;
+}
+
+.image-proj {
+  width: 400px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height to match the width */
+  /* border-radius: 50%; */
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 4px;
+  font-size: .875em;
+  color: #333;
+}
+
+.image-description-blocks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
